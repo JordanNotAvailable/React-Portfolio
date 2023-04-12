@@ -1,41 +1,26 @@
-import './App.css';
-import { React, useState } from 'react'
-import Navigation from './components/navigation';
-import Portfolio from './components/portfolio';
-import Contact from './components/contact';
-import Footer from './components/footer';
-import About from './components/about'
-import Resume from './components/resume';
+import { Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Layout from './components/Layout'
+import Portfolio from './components/Portfolio'
+import Dashboard from './components/Dashboard'
+import './App.scss'
 
 function App() {
-  const [currentPage, handlePageChange] = useState('About');
-
-  const renderPage = () => {
-    if (currentPage === "About") {
-      return <About />
-    }
-
-    if (currentPage === "Contact") {
-      return <Contact />
-    }
-
-    if (currentPage === "Portfolio") {
-      return <Portfolio />
-    }
-
-    if (currentPage === "Resume") {
-      return <Resume />
-    }
-  }
-
   return (
-
-      <div className='flex-wrapper'>
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-        <div>{renderPage(currentPage)}</div>
-        <Footer></Footer>
-      </div>
-  );
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Route>
+      </Routes>
+    </>
+  )
 }
 
-export default App;
+export default App
