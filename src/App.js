@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { React, useState } from 'react'
+import Navigation from './components/navigation';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact';
+import Footer from './components/footer';
+import About from './components/about'
+import Resume from './components/resume';
 
 function App() {
+  const [currentPage, handlePageChange] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />
+    }
+
+    if (currentPage === "Contact") {
+      return <Contact />
+    }
+
+    if (currentPage === "Portfolio") {
+      return <Portfolio />
+    }
+
+    if (currentPage === "Resume") {
+      return <Resume />
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <div className='flex-wrapper'>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div>{renderPage(currentPage)}</div>
+        <Footer></Footer>
+      </div>
   );
 }
 
