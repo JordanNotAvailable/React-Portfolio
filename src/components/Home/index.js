@@ -2,14 +2,12 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/logo-j.png'
-import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['o', 'r', 'd', 'a', 'n', ' ', 'O', "'", 'G', 'r', 'a', 'd', 'y', ',']
+  const nameArray = ['J', 'o', 'r', 'd', 'a', 'n', ' ', 'O', "'", 'G', 'r', 'a', 'd', 'y', ',']
   const jobArray = [
     's',
     'o',
@@ -44,14 +42,14 @@ const Home = () => {
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _12`}>i</span>
+            <span className={`${letterClass} _12`}>,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
-            <img
-              src={LogoTitle}
-              alt="Developer Name"
-            />
+            <span className={`${letterClass} _14`}>'</span>
+            <span className={`${letterClass} _14`}>m</span>
+            <span className={`${letterClass} _14`}></span>
+            
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -69,7 +67,6 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
 
       <Loader type="pacman" />
