@@ -2,13 +2,13 @@
 
 .text-sphere {
   position: relative;
-  top: 0;
+  top: 15vh;
   width: 100%;
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1e1e1e;
+
 }
 
 .tagcloud {
@@ -28,4 +28,17 @@
 
 .tagcloud--item:hover {
   color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .text-sphere {
+    top: 10vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-sphere {
+    top: 30vh;
+    left: 20%;
+  }
 }
