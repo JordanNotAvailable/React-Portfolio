@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import TagCloud from "TagCloud";
+import TagCloud from 'TagCloud';
 import './index.scss';
 
 const About = () => {
@@ -15,9 +15,8 @@ const About = () => {
   }, []);
 
   useEffect(() => {
-    return() => {
-      const container = ".tagcloud"
-      const texts = [
+    const container = '.tagcloud';
+    const texts = [
         "HTML",
         "CSS",
         "JavaScript",
@@ -42,17 +41,16 @@ const About = () => {
         "Handlebars",
         "Bootstrap",
         "Git Projects",
-      ];
+    ];
 
-      const options = {
-          radius: 300,
-          maxSpeed: "normal",
-          initSpeed: "normal",
-          keep: true,
-      };
-
-      TagCloud(container, texts, options);
+    const options = {
+      radius: 300 ,
+      maxSpeed: 'normal',
+      initSpeed: 'normal',
+      keep: true,
     };
+
+    TagCloud(container, texts, options);
   }, []);
   
   return (
