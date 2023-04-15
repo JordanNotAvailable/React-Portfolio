@@ -24,9 +24,10 @@ const About = () => {
         "Mongoose",
         "SQL",
         "Sequalize",
+        "Heroku",
         "GitHub",
         "Bash",
-        "Insomnia",
+        "Insomnia", 
         "GraphQL",
         "Nodejs",
         "Reactjs",
@@ -40,7 +41,7 @@ const About = () => {
         "JQuery",
         "Handlebars",
         "Bootstrap",
-        "Git Projects",
+        "Ghant charts",
     ];
 
     const options = {
@@ -70,7 +71,11 @@ const About = () => {
             excited for the direction that I am pivoting to in tech and am motivated to learn what I can.
           </p>
           <p align="LEFT">
-            I'm quiet curious and a strong believer in lifelong learning so every challenge is new oppotunity to further expand my skillset and knowledge!
+            I'm quiet curious and proud that if I dont know something I know how to figure it out. <br/>
+            As strong believer in lifelong learning every challenge is new oppotunity to further expand my skillset and knowledge!
+          </p>
+          <p>
+            As a results driven person I thrive off constructive critisims so I'm also looking on how i can further improve on my skillset
           </p>
         </div>
 

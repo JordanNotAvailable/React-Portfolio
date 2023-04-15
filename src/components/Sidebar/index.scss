@@ -90,9 +90,15 @@
       }
     }
 
-    a.portfolio-link {
+    a.project-link {
       &:after {
-        content: 'PORTFOLIO';
+        content: 'PROJECTS';
+      }
+    }
+
+    a.resume-link {
+      &:after {
+        content: 'RESUME';
       }
     }
 
