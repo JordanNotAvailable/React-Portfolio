@@ -17,7 +17,6 @@ This Portfolio siter madde with react as well as the listed technologies below t
 ## **Installation**
 Nil
 
-
 ---
 ## **Technologies Used**
 
