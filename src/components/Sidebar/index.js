@@ -77,6 +77,19 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
+            href="https://github.com/JordanNotAvailable/React-Portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="white"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.linkedin.com/in/jordan-o-grady-1126501b4/"
             target="_blank"
             rel="noreferrer"
