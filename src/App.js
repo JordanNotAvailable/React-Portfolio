@@ -6,13 +6,14 @@ import Layout from './components/Layout'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import './App.scss'
+<meta name="Permissions-Policy" content="interest-cohort=()" />
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route path="/React-Portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
