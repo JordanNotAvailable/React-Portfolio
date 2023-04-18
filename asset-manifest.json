@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.1707afbc.css",
+    "main.js": "/React-Portfolio/static/js/main.ec881a72.js",
+    "static/js/787.e8144f46.chunk.js": "/React-Portfolio/static/js/787.e8144f46.chunk.js",
+    "static/media/Chat-Support.png": "/React-Portfolio/static/media/Chat-Support.b49631b0c2914f3098a7.png",
+    "static/media/JordanResume.pdf": "/React-Portfolio/static/media/JordanResume.319d0799df3595e9200a.pdf",
+    "static/media/logo-sub.png": "/React-Portfolio/static/media/logo-sub.10d512a3d64d655b09a7.png",
+    "static/media/Weather-App.png": "/React-Portfolio/static/media/Weather-App.b802864d4f51e46dd398.png",
+    "static/media/logo-j.png": "/React-Portfolio/static/media/logo-j.b5db0781061191b8e76a.png",
+    "static/media/Employee-Tracker.png": "/React-Portfolio/static/media/Employee-Tracker.66406236f082d212cc6a.png",
+    "static/media/Team-Chat.png": "/React-Portfolio/static/media/Team-Chat.ad3848295c72689ee0dc.png",
+    "static/media/helvetica-neu.ttf": "/React-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/React-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/React-Portfolio/index.html",
+    "main.1707afbc.css.map": "/React-Portfolio/static/css/main.1707afbc.css.map",
+    "main.ec881a72.js.map": "/React-Portfolio/static/js/main.ec881a72.js.map",
+    "787.e8144f46.chunk.js.map": "/React-Portfolio/static/js/787.e8144f46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1707afbc.css",
+    "static/js/main.ec881a72.js"
+  ]
+}
