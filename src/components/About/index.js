@@ -66,19 +66,17 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a creative, hardworking problem solver with broad industry experience in 
-            construction, sales and business. I have found my passion studying full-stack software development and I am 
-            excited for the direction that I am pivoting to in tech and am motivated to learn what I can.
+            I am a creative, hardworking individual with broad industry experience in construction, sales, and business, <br/>
+            but I've found my true passion in pivoting into tech through full-stack software development.
           </p>
           <p align="LEFT">
-            I'm quiet curious and proud that if I dont know something I know how to figure it out. <br/>
-            As a strong believer in lifelong learning every challenge is new oppotunity to further expand my skillset and knowledge!
+            Through my studies, I have discovered that I'm a problem solver who enjoys the challenge of figuring things out. <br/>
+            Lifelong learning is important to me, and I am constantly looking for opportunities to improve my skills and knowledge.
           </p>
           <p>
-            As a result driven person I thrive off constructive critisims so I'm also looking on how i can further improve on my skillset
+            I welcome constructive criticism as a way to grow and develop my abilities. Moving forward, I'm excited to continue learning and contributing to the tech community.
           </p>
         </div>
-
         <div className="text-sphere">
           <span className="tagcloud"></span>
         </div>
