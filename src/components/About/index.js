@@ -17,30 +17,41 @@ const About = () => {
   useEffect(() => {
     const container = '.tagcloud';
     const texts = [
-        "HTML",
-        "CSS",
         "JavaScript",
+        "React.js",
+        "HTML",
+        "Handlebars",
+        "CSS",
+        "SCSS",
         "MongoDB",
         "Mongoose",
-        "SQL",
+        "MySQL",
         "Sequalize",
+        "NoSQL",
+        "REST APIs",
+        "GraphQL",
+        "Nodejs",
+        "Express",
+        "MERN Stack",
+        "Bootstrap",
+        "JQuery",
+        "Bcrypt",
+        "Webpacks",
+        "Socket.io",
+        "TagCloud",
+        "NPM",
+        "VS Code",
         "Heroku",
         "GitHub",
         "Bash",
-        "Insomnia", 
-        "GraphQL",
-        "Nodejs",
-        "Reactjs",
-        "MERN Stack",
-        "Webpacks",
-        "Express",
-        "REST APIs",
+        "Insomnia",
         "Apollo Sandbox",
         "Compass",
-        "NoSQL",
-        "JQuery",
-        "Handlebars",
-        "Bootstrap",
+        "Lint",
+        "MVC",
+        "OOP",
+        "ORM",
+        "PWA",
         "Ghant charts",
     ];
 
@@ -67,7 +78,7 @@ const About = () => {
           </h1>
           <p>
             I am a creative, hardworking individual with broad industry experience in construction, sales, and business, <br/>
-            but I've found my true passion in pivoting into tech through full-stack software development.
+            but I've found my true passion in pivoting into tech through full-stack software engineering.
           </p>
           <p align="LEFT">
             Through my studies, I have discovered that I'm a problem solver who enjoys the challenge of figuring things out. <br/>

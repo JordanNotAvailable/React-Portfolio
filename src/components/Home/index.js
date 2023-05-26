@@ -9,7 +9,18 @@ const Home = () => {
 
   const nameArray = ['J', 'o', 'r', 'd', 'a', 'n', ' ', 'O', "'", 'G', 'r', 'a', 'd', 'y', ',']
   const jobArray = [
-    's',
+    'F',
+    'u',
+    'l',
+    'l',
+    '-',
+    'S',
+    't',
+    'a',
+    'c',
+    'k',
+    ' ',
+    'S',
     'o',
     'f',
     't',
@@ -18,16 +29,14 @@ const Home = () => {
     'r',
     'e',
     ' ',
-    'd',
+    'E',
+    'n',
+    'g',
+    'i',
+    'n',
     'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
     'e',
     'r',
-    '.',
   ]
 
   useEffect(() => {
@@ -62,7 +71,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Full-Stack Software Developer</h2>
+          <h2>Full-Stack Software Engineer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
