@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.28ce697b.css",
-    "main.js": "/React-Portfolio/static/js/main.b680da67.js",
+    "main.css": "/React-Portfolio/static/css/main.31dca83a.css",
+    "main.js": "/React-Portfolio/static/js/main.584f8c03.js",
     "static/js/787.e8144f46.chunk.js": "/React-Portfolio/static/js/787.e8144f46.chunk.js",
     "static/media/Chat-Support.png": "/React-Portfolio/static/media/Chat-Support.b49631b0c2914f3098a7.png",
-    "static/media/JordanResume.pdf": "/React-Portfolio/static/media/JordanResume.319d0799df3595e9200a.pdf",
+    "static/media/Jordan-Software-Resume-2.pdf": "/React-Portfolio/static/media/Jordan-Software-Resume-2.c618ef8b9925f6725114.pdf",
     "static/media/logo-sub.png": "/React-Portfolio/static/media/logo-sub.10d512a3d64d655b09a7.png",
     "static/media/Weather-App.png": "/React-Portfolio/static/media/Weather-App.b802864d4f51e46dd398.png",
     "static/media/logo-j.png": "/React-Portfolio/static/media/logo-j.b5db0781061191b8e76a.png",
@@ -14,12 +14,12 @@
     "static/media/LaBelleAurore.woff2": "/React-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.28ce697b.css.map": "/React-Portfolio/static/css/main.28ce697b.css.map",
-    "main.b680da67.js.map": "/React-Portfolio/static/js/main.b680da67.js.map",
+    "main.31dca83a.css.map": "/React-Portfolio/static/css/main.31dca83a.css.map",
+    "main.584f8c03.js.map": "/React-Portfolio/static/js/main.584f8c03.js.map",
     "787.e8144f46.chunk.js.map": "/React-Portfolio/static/js/787.e8144f46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28ce697b.css",
-    "static/js/main.b680da67.js"
+    "static/css/main.31dca83a.css",
+    "static/js/main.584f8c03.js"
   ]
 }
