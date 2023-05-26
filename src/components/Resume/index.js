@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../../assets/resume/JordanResume.pdf";
+import myResume from "../../assets/resume/Jordan-Software-Resume-2.pdf";
 function Resume(props) {
   return (
     <div>
