@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.31dca83a.css",
-    "main.js": "/React-Portfolio/static/js/main.584f8c03.js",
+    "main.css": "/React-Portfolio/static/css/main.951b8874.css",
+    "main.js": "/React-Portfolio/static/js/main.436b2c31.js",
     "static/js/787.e8144f46.chunk.js": "/React-Portfolio/static/js/787.e8144f46.chunk.js",
     "static/media/Chat-Support.png": "/React-Portfolio/static/media/Chat-Support.b49631b0c2914f3098a7.png",
     "static/media/Jordan-Software-Resume-2.pdf": "/React-Portfolio/static/media/Jordan-Software-Resume-2.c618ef8b9925f6725114.pdf",
@@ -14,12 +14,12 @@
     "static/media/LaBelleAurore.woff2": "/React-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.31dca83a.css.map": "/React-Portfolio/static/css/main.31dca83a.css.map",
-    "main.584f8c03.js.map": "/React-Portfolio/static/js/main.584f8c03.js.map",
+    "main.951b8874.css.map": "/React-Portfolio/static/css/main.951b8874.css.map",
+    "main.436b2c31.js.map": "/React-Portfolio/static/js/main.436b2c31.js.map",
     "787.e8144f46.chunk.js.map": "/React-Portfolio/static/js/787.e8144f46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31dca83a.css",
-    "static/js/main.584f8c03.js"
+    "static/css/main.951b8874.css",
+    "static/js/main.436b2c31.js"
   ]
 }
