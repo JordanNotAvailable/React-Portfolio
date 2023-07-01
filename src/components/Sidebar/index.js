@@ -33,7 +33,7 @@ const Sidebar = () => {
         <NavLink 
           exact="true"
           activeclassname="active"
-          to="/"
+          to="/react-portfolio"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="white" />
         </NavLink>
