@@ -3,7 +3,7 @@
 
 ## **Description**
 
-This Portfolio siter madde with react as well as the listed technologies below to display my skill set as a developer.
+This Portfolio site made with react as well as the listed technologies below to display my skill set as a developer.
 
 ---
 ## **Table of Contents**
